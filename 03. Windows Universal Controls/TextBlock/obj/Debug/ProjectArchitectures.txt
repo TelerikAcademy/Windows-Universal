@@ -1,0 +1,1 @@
+D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\TextBlock\02.TextBlock.csproj;neutral

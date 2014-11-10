@@ -1,0 +1,1 @@
+D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ListView\07.ListView.csproj;neutral

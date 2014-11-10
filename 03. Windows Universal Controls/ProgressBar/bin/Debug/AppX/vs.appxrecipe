@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EHRISTOV</Machine>
+    <WindowsUser>ehristov</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>29d4c16a-4b60-4ca6-a0e5-483facd828cf</PackageIdentityName>
+    <IntermediateOutputPath>D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ProgressBar\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>406FD975FC2B0FFCF8BD9B68EA7E1073207695643B2BA9E5DAE36291E18526A5</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>29d4c16a-4b60-4ca6-a0e5-483facd828cf_1.0.0.0_neutral__mvp2hd54v0g4a</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>29d4c16a-4b60-4ca6-a0e5-483facd828cf_mvp2hd54v0g4a!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>29d4c16a-4b60-4ca6-a0e5-483facd828cf</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ehristov</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ProgressBar\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-10T17:54:34.658</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ProgressBar\bin\Debug\ProgressBar.exe">
+      <PackagePath>ProgressBar.exe</PackagePath>
+      <Modified>2014-11-10T17:55:30.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ProgressBar\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ProgressBar\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ProgressBar\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ProgressBar\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ProgressBar\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-10T17:54:12.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ProgressBar\bin\Debug\ProgressBar.xbf">
+      <PackagePath>ProgressBar.xbf</PackagePath>
+      <Modified>2014-11-10T17:55:30.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ProgressBar\bin\Debug\ProgressBar.xr.xml">
+      <PackagePath>ProgressBar.xr.xml</PackagePath>
+      <Modified>2014-11-10T17:55:30.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ProgressBar\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-10T17:54:34.627</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

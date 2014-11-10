@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EHRISTOV</Machine>
+    <WindowsUser>ehristov</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>db0e593e-a423-4a10-855f-002fe960ea63</PackageIdentityName>
+    <IntermediateOutputPath>D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ListView\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>334D4337B4E2D3D33B6E86FE4B035B5233217579BACC4F499213130AEE2137C1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>db0e593e-a423-4a10-855f-002fe960ea63_1.0.0.0_neutral__mvp2hd54v0g4a</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>db0e593e-a423-4a10-855f-002fe960ea63_mvp2hd54v0g4a!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>db0e593e-a423-4a10-855f-002fe960ea63</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ehristov</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ListView\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-10T15:12:09.664</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ListView\bin\Debug\ListView.exe">
+      <PackagePath>ListView.exe</PackagePath>
+      <Modified>2014-11-10T15:12:09.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ListView\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ListView\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ListView\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ListView\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ListView\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-10T15:11:32.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ListView\bin\Debug\ListView.xbf">
+      <PackagePath>ListView.xbf</PackagePath>
+      <Modified>2014-11-10T15:12:00.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ListView\bin\Debug\ListView.xr.xml">
+      <PackagePath>ListView.xr.xml</PackagePath>
+      <Modified>2014-11-10T15:12:00.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ListView\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-10T15:12:09.627</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

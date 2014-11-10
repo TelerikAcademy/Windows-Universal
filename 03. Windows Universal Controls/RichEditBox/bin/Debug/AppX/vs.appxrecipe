@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EHRISTOV</Machine>
+    <WindowsUser>ehristov</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d32732dc-4a2d-4d2c-ae55-a092bfeb6f7c</PackageIdentityName>
+    <IntermediateOutputPath>D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\RichEditBox\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>46DB963E83CB5489EAF4C0427D9C071BE8DCAE4AA35E9A8ACCE9AD1BE4355A29</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>d32732dc-4a2d-4d2c-ae55-a092bfeb6f7c_1.0.0.0_neutral__mvp2hd54v0g4a</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>d32732dc-4a2d-4d2c-ae55-a092bfeb6f7c_mvp2hd54v0g4a!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>d32732dc-4a2d-4d2c-ae55-a092bfeb6f7c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ehristov</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\RichEditBox\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-10T13:10:19.587</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\RichEditBox\bin\Debug\RichEditBox.exe">
+      <PackagePath>RichEditBox.exe</PackagePath>
+      <Modified>2014-11-10T13:10:19.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\RichEditBox\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\RichEditBox\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\RichEditBox\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\RichEditBox\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\RichEditBox\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-10T13:05:14.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\RichEditBox\bin\Debug\RichEditBox.xbf">
+      <PackagePath>RichEditBox.xbf</PackagePath>
+      <Modified>2014-11-10T13:09:55.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\RichEditBox\bin\Debug\RichEditBox.xr.xml">
+      <PackagePath>RichEditBox.xr.xml</PackagePath>
+      <Modified>2014-11-10T13:09:55.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\RichEditBox\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-10T13:10:19.553</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
