@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="Border.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Border"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Border BorderThickness="5"
+            Background="Transparent"
+            CornerRadius="10"
+                HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+        <Border.BorderBrush>
+            <LinearGradientBrush StartPoint="0,0"
+                                 EndPoint="0,1" >
+                <GradientStop Color="Blue"
+                              Offset="0.2"/>
+                <GradientStop Color="DarkBlue"
+                              Offset="0.8"/>
+            </LinearGradientBrush>
+        </Border.BorderBrush>
+
+        <!--<Viewbox>-->
+        <StackPanel>
+            <StackPanel.Background>
+                <SolidColorBrush Color="LightGoldenrodYellow"
+                                 Opacity="0.1"/>
+            </StackPanel.Background>
+            <Button Content="Button"
+                    Margin="10"/>
+            <Button Content="Button"
+                    Margin="10"/>
+            <Button Content="Button"
+                    Margin="10"/>
+            <Button Content="Button"
+                    Margin="10"/>
+            <Button Content="Button"
+                    Margin="10"/>
+            <Button Content="Button"
+                    Margin="10"/>
+        </StackPanel>
+        <!--</Viewbox>-->
+    </Border>
+</Page>
