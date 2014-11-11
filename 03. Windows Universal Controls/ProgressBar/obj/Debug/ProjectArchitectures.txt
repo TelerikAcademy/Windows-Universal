@@ -1,1 +1,0 @@
-D:\Materials\windows-universal\2014\Lectures\03. Windows Universal Controls\Windows Universal Controls Demos\ProgressBar\11.ProgressBar.csproj;neutral
