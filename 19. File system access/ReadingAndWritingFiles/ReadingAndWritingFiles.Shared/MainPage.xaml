@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="ReadingAndWritingFiles.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ReadingAndWritingFiles"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <Style TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="30" />
+        </Style>
+    </Page.Resources>
+
+    <StackPanel Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Button Name="PickFileForDemo"
+                Click="PickFileForDemoClick"
+            Content="Pick File for Demo" />
+        <TextBox Name="TextInput"
+                 Text="Write your text here"></TextBox>
+        <Button Click="WriteToFileClick"
+                Name="WriteToFile" 
+                Content ="Write text to file" />
+        <CheckBox Name="OverwriteCheckBox" 
+                  Content="Overwrite contents"
+                  HorizontalAlignment="Center"/>
+        <Button Click="ReadFromFileClick"
+                Name="ReadFromFile"
+                Content="Read text from file" />
+        <TextBlock Name="FileContents"
+                   Text="File contents (Use button to update)" />
+    </StackPanel>
+</Page>
