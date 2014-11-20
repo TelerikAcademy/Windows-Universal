@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="MovingBallWithAccelerometerDemo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MovingBallWithAccelerometerDemo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:customViews="using:MovingBallWithAccelerometerDemo.CustomViews"
+   
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Canvas Name="rootPanel"
+            Loaded="rootPanel_Loaded">
+        <customViews:CanvasListView ItemsSource="{Binding Balls}"
+                  Width="{Binding Width, Mode=TwoWay}"
+                  Height="{Binding Height, Mode=TwoWay}"
+                  Background="Yellow">
+            <customViews:CanvasListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Canvas Width="{Binding Width}"
+                            Height="{Binding Height}" />
+                </ItemsPanelTemplate>
+            </customViews:CanvasListView.ItemsPanel>
+            <customViews:CanvasListView.ItemTemplate>
+                <DataTemplate>
+                    <Ellipse Width="{Binding Diameter}"
+                                 Height="{Binding Diameter}"
+                                 Canvas.Top="{Binding Position.X}"
+                                 Canvas.Left="{Binding Position.Y}"
+                         Fill="Pink" />
+
+                </DataTemplate>
+            </customViews:CanvasListView.ItemTemplate>
+
+        </customViews:CanvasListView>
+    </Canvas>
+</Page>

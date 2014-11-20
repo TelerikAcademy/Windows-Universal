@@ -1,0 +1,43 @@
+﻿<Application
+    x:Class="MvvmDemos.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MvvmDemos">
+    <Application.Resources>
+        <Style TargetType="TextBlock" x:Name="DefaultTextBlockStyle">
+            <Setter Property="FontSize" Value="56" />
+        </Style>
+        <DataTemplate x:Name="phoneDataTemplate">
+            
+            <!-- Data Context = PhoneViewModel -->
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Vendor: "
+                                   Grid.Row="0"
+                                   Grid.Column="0" />
+                <TextBlock Text="{Binding Vendor}"
+                                   Grid.Row="0"
+                                   Grid.Column="1"
+                                   Foreground="{StaticResource ApplicationForegroundThemeBrush}"/>
+                <TextBlock Text="Model: "
+                                   Grid.Row="1"
+                                   Grid.Column="0" />
+                <TextBlock Text="{Binding Model}"
+                                   Grid.Row="1"
+                                   Grid.Column="1"/>
+            </Grid>
+        </DataTemplate>
+        <Style TargetType="TextBlock"
+               x:Name="bigTextBlock">
+            <Setter Property="FontSize" Value="36" />
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,44 @@
+﻿<UserControl
+    x:Class="MvvmDemos.Views.PhoneDetailsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MvvmDemos.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="--Phone Details--"
+                       Style="{StaticResource bigTextBlock}"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   HorizontalAlignment="Center"/>
+        <TextBlock Text="Vendor"
+                       Grid.Row="1"
+                       Grid.Column="0"
+                       Style="{StaticResource bigTextBlock}"/>
+        <TextBlock Text="{Binding Vendor}"
+                       Grid.Row="1"
+                       Grid.Column="1"
+                       Style="{StaticResource bigTextBlock}"/>
+        <TextBlock Text="Model"
+                       Grid.Row="2"
+                       Grid.Column="0"
+                       Style="{StaticResource bigTextBlock}"/>
+        <TextBlock Text="{Binding Model}"
+                       Grid.Row="2"
+                       Grid.Column="1"
+                       Style="{StaticResource bigTextBlock}"/>
+    </Grid>
+</UserControl>

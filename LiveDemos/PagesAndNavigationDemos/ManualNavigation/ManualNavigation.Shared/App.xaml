@@ -1,0 +1,16 @@
+﻿<Application
+    x:Class="ManualNavigation.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ManualNavigation">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <x:String x:Key="AppName">Navigation Demo</x:String>
+                </ResourceDictionary>
+                <ResourceDictionary Source="Styles/UniversalStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

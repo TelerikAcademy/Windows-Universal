@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TheDragonGame.ViewModels.Creatures.CreatureViewModel">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAIAAAACAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\academy\Desktop\Windows Universal\LiveDemos\TheDragonGame\TheDragonGame\TheDragonGame.Shared\ViewModels\Creatures\CreatureViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheDragonGame.ViewModels.Creatures.PlayerViewModel">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\academy\Desktop\Windows Universal\LiveDemos\TheDragonGame\TheDragonGame\TheDragonGame.Shared\ViewModels\Creatures\PlayerViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheDragonGame.ViewModels.Creatures.EnemyViewModel">
+    <Position X="3.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\academy\Desktop\Windows Universal\LiveDemos\TheDragonGame\TheDragonGame\TheDragonGame.Shared\ViewModels\Creatures\EnemyViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

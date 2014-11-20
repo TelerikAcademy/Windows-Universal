@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>a5f81ce6-0ed1-47ea-8cdc-e56f5adbaf96</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>TheDragonGame</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CustomViews\CanvasListView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Creatures\GameObjectViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Creatures\EnemyViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Creatures\FireballViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Creatures\InfernoViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Creatures\PlayerViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GameViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainPageViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)images\background.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\dragon.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\fireball.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\ponny.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>

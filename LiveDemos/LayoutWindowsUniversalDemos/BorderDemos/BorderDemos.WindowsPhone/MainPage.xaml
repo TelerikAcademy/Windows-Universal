@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="BorderDemos.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BorderDemos"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <LinearGradientBrush x:Name="tomatoChiffonBrush"
+                             StartPoint="0.7, 0.3"
+                             EndPoint="0.1, 0">
+            <GradientStop Color="Tomato" Offset="0.3" />
+            <GradientStop Color="LemonChiffon" Offset="0.8" />
+        </LinearGradientBrush>
+    </Page.Resources>
+
+    <StackPanel>
+        <Button Content="Click" 
+                Height="150"
+                Width="150"
+                Background="{StaticResource tomatoChiffonBrush}">
+        </Button>
+        <Button Content="Click" 
+                Height="150"
+                Width="150"
+                Background="{StaticResource tomatoChiffonBrush}">
+        </Button>
+        <Button Content="Click" 
+                Height="150"
+                Width="150"
+                Background="{StaticResource tomatoChiffonBrush}">
+        </Button>
+        <!--<Button BorderBrush="Transparent"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            <Border Canvas.Top="150"
+                Canvas.Left="150"
+                BorderBrush="SkyBlue"
+                BorderThickness="5"
+                Width="150"
+                Height="150"
+                CornerRadius="180">
+                <TextBlock>
+                    Click
+                </TextBlock>
+            </Border>
+        </Button>-->
+    </StackPanel>
+</Page>
