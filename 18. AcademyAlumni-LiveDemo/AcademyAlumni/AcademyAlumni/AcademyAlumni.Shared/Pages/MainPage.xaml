@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="AcademyAlumni.Pages.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AcademyAlumni"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:views="using:AcademyAlumni.Views"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <views:HeadeView Grid.Row="0" 
+                         Margin="19,0,0,0" 
+                         TitleText="Welcome!"
+                         SignOut="OnSignOutCompleted"/>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <ListView ItemsSource="{Binding Events}"
+                      ItemTemplate="{StaticResource EventTemplate}"
+                      SelectionMode="Single"
+                      SelectionChanged="OnEventsListViewSelectionChanged"/>
+        </Grid>
+        <StackPanel Orientation="Horizontal"
+                    Grid.Row="2"
+                    HorizontalAlignment="Center">
+            <AppBarButton Label="Events" Icon="List" />
+            <AppBarButton Label="Details"  Icon="Account" Click="OnDetailsAppBarButtonClick"/>
+        </StackPanel>
+    </Grid>
+</Page>
